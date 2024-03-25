@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Bordersdd';
+    src: url(../fonts/BordersDivideButHeartsShall[RUSbyPenka220]-Regular.ttf);
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    border-bottom-right-radius: 180px;
+    border-bottom-left-radius: 180px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.433);
+}
+.logo{
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 176px;
+    margin-left: -136px;
+    margin-top:-20px;
+}
+.logo p{
+    font-family: 'Bordersdd';
+    font-size: 40px;
+    color: #003352;
+}
+nav a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #003352;
+    font-size: 24px;
+    font-family: 'Bordersdd';
+    border: none;
+    border-radius: 10px;
+}
+nav a:hover{
+    background-color: #003352;
+    color: white;
+}
+.reglog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reglog a{
+    width: 132px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #003352;
+    font-size: 24px;
+    font-family: 'Bordersdd';
+    border: none;
+    border-radius: 10px;
+}
+.reglog a:hover{
+    background-color: #003352;
+    color: white;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information{
+    font-family: 'Bordersdd';
+    font-size: 24px;
+    background-image: url(../image/b192962a6e00bc89029394528e772719.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 550px;
+    border-radius: 10px;
+    color: white;
+    margin: 24px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.497);
+}
+.information>div{
+    background-color: rgba(0, 0, 0, 0.436);
+    border-radius: 10px;
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tours{
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.tour{
+    width: 400px;
+    height: 270px;
+    background-image: url(../image/6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Bordersdd';
+    margin: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.497);
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.backdark{
+    background-color: rgba(0, 0, 0, 0.562);
+    width: 400px;
+    height: 270px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tour h1{
+    margin: 10px;
+    text-align: center;
+}
+.tour input{
+    width: 200px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Bordersdd';
+    color: rgb(0, 0, 0);
+}
+.tour input:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
